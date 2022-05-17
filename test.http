@@ -1,0 +1,10 @@
+@url = https://ccpc-cert.acmclub.cn:8081/
+@json = Content-Type: application/json
+
+post {{url}}/register
+{{json}}
+
+{
+  "userName": "testname1",
+  "passWord": "123456"
+}
